@@ -1,7 +1,7 @@
 $(document).on("ready",function(){
 
   var scanBeep = new Audio('./scan-beep.mp3');
-  var scannerCamEl = $('scanner-cam')[0];
+  var scannerCamEl = $('.scanner-cam')[0];
   var App = {
       init: function() {
           var self = this;
